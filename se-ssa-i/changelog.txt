@@ -1,0 +1,188 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.3.10
+Date: 10 March 2026
+  Bugfixes:
+    - Fixed crash with se-molten-glass mod
+---------------------------------------------------------------------------------------------------
+Version: 1.3.9
+Date: 26 October 2025
+  Changes:
+    - Fixed crash when using sei-foundry >= 1.0.10 with bzfoundry2
+---------------------------------------------------------------------------------------------------
+Version: 1.3.8
+Date: 23 October 2025
+  Changes:
+    - Bumped required version of sei-library to 1.0.9
+---------------------------------------------------------------------------------------------------
+Version: 1.3.7
+Date: 22 October 2025
+  Features:
+    - Added optional dependency: sei-fusion-reactor.
+---------------------------------------------------------------------------------------------------
+Version: 1.3.6
+Date: 18 October 2025
+  Features:
+    - Added optional dependency: sei-tesla-turret.
+    - Added optional dependency: sei-rocket-turret.
+---------------------------------------------------------------------------------------------------
+Version: 1.3.5
+Date: 18 October 2025
+  Changes:
+    - Removed optional dependency: sei-spoilage. Spoilage can be enabled per mod now.
+---------------------------------------------------------------------------------------------------
+Version: 1.3.4
+Date: 17 October 2025
+  Features:
+    - Added optional dependency: sei-agricultural-tower
+    - Added optional dependency: sei-gleba-fruits
+---------------------------------------------------------------------------------------------------
+Version: 1.3.3
+Date: 12 October 2025
+  Features:
+    - Added optional dependency: sei-spoilage
+---------------------------------------------------------------------------------------------------
+Version: 1.3.2
+Date: 11 October 2025
+  Features:
+    - Added optional dependency: sei-captive-biters
+---------------------------------------------------------------------------------------------------
+Version: 1.3.1
+Date: 9 October 2025
+  Features:
+    - Added optional dependency: sei-biochamber
+---------------------------------------------------------------------------------------------------
+Version: 1.3.0
+Date: 8 October 2025
+  Changes:
+    - All changes moved to their own individual mods.
+    - Recipes rebalanced to also include k2 materials when present
+  Features:
+    - Added a legacy recipe/tech mod setting if you want to keep the old crafting recipes.
+    - Added required dependency: sei-foundry
+    - Added required dependency: sei-cryogenic-plant
+    - Added required dependency: sei-electromagnetic-plant
+    - Added required dependency: sei-stack-inserters
+    - Added required dependency: sei-miner-resource-drain
+    - Added optional dependency: sei-turbo-loaders
+---------------------------------------------------------------------------------------------------
+Version: 1.2.5
+Date: 6 October 2025
+  Fixes:
+    - Fixed changelog not showing up in game
+    - Normalized change log
+---------------------------------------------------------------------------------------------------
+Version: 1.2.4
+Date: 6 October 2025
+  Changes:
+    - Added optional dependency to TurboBelt mod for turbo belt changes.
+---------------------------------------------------------------------------------------------------
+Version: 1.2.3
+Date: 4 October 2025
+  Fixes:
+    - [k2] Fixes casting steel pipe to ground gave steel pipe
+    - [k2] Fixes casting steel ingot recipe in foundry
+---------------------------------------------------------------------------------------------------
+Version: 1.2.2
+Date: 3 October 2025
+  Changes:
+    - Moved stack inserters from biological and astronomic science 1 to utility science
+    - Moved turbo belts from material science 2 to material science 1 and they require iridium plates instead of heavy bearings
+---------------------------------------------------------------------------------------------------
+Version: 1.2.1
+Date: 1 October 2025
+  Changes:
+    - Some locale changes
+  Fixes:
+    - [k2] Fixed cryogenic plant still having 6 module slots instead of 3
+---------------------------------------------------------------------------------------------------
+Version: 1.2.0
+Date: 1 October 2025
+  Features:
+    - [Breaking] This is a breaking release. The mod should not change much after this, only to add features.
+    - Removed the ingot -> plate recipes from the foundry
+    - Added casting recipes using molten copper and iron from space exploration for most copper and iron related intermediates and removed the item recipes from the foundry
+    - Supports base, space exploration, and krastorio2 intermediates, pipes, and concrete
+    - Foundry can do carbonless steel casting now
+    - Recipes were balanced around a 25 molten iron/copper per plate and 50 per steel plate (35 when using krastorio 2) cost
+  Changes:
+    - Removes the space age molten fluids, ore to molten, and molten to plate recipes from the standalone foundry mod and migrates the fluids to the splace exploration molten fluids
+    - Removed mod setting for space age crafting recipes
+---------------------------------------------------------------------------------------------------
+Version: 1.1.3
+Date: 29 September 2025
+  Features:
+    - Added mod setting to unhide the space age casting recipes
+---------------------------------------------------------------------------------------------------
+Version: 1.1.2
+Date: 29 September 2025
+  Features:
+    - Rewrote (again)
+    - Stack Inserters: requires stack inserter mod
+    - Foundry: requires standalone foundry mod
+    - Electromagnetic Plant: requires standalone electromagnetic plant mod
+    - Cryogenic Plant: requires standalone cryogenic plant mod
+    - Turbo Belts: optional dependency to the turbo belts mod
+    - [k2] Enabled stacking support for mining drill mk3 and quarry drill
+---------------------------------------------------------------------------------------------------
+Version: 1.1.1
+Date: 29 September 2025
+  Fixes:
+    - Fixed hand crafting being removed for most items sorry
+---------------------------------------------------------------------------------------------------
+Version: 1.1.0
+Date: 29 September 2025
+  Features:
+    - Electromagnetic plant can craft batteries now
+  Changes:
+    - Removed requirements for Turbo belts, standalone foundry, standalone em plant, and standalone cryo plant
+    - Removed mod settings to turn disable machines
+    - Added self contained forms of turbo belts, foundry, em plant, and cryo plant (Still must have space age installed but not active)
+    - Should be 0 changes to things already placed/researched
+    - Make sure to remove the standalone machines and turbo belt mods as they are incompatible
+---------------------------------------------------------------------------------------------------
+Version: 1.0.7
+Date: 28 September 2025
+  Fixes:
+    - [aai loaders] fixed error when trying to load without aii-loaders
+---------------------------------------------------------------------------------------------------
+Version: 1.0.6
+Date: 28 September 2025
+  Fixes:
+    - [aai loaders stacking filtering] Fixed crash when trying to load with optional dependencies.
+    - [blueprint sandbox] Fixed crash when trying to load with turbo belts disabled/K2 
+---------------------------------------------------------------------------------------------------
+Version: 1.0.5
+Date: 28 September 2025
+  Fixes:
+    - [aai loaders] Actually Fixed crash when loading with aai-loaders
+---------------------------------------------------------------------------------------------------
+Version: 1.0.4
+Date: 28 September 2025
+  Features:
+    - Added mod setting to change base productivity bonus for foundry and electromagnetic plant
+    - [k2] Added support for k2 loaders when enabled
+  Fixes:
+    - Fixed crash when elevated-rails is disabled
+    - [aai loaders] Fixed crash when loading aai-loaders in graphics-only mode
+---------------------------------------------------------------------------------------------------
+Version: 1.0.3
+Date: 28 September 2025
+  Fixes:
+    - Marks quality incompatible and added a check if quality modules 4-9 does not exist some how.
+    - [k2] Fixed some oil cracking recipes not showing up in advanced chemical plant
+---------------------------------------------------------------------------------------------------
+Version: 1.0.2
+Date: 28 September 2025
+  Features:
+    - Added support for Krastorio2. Turbo belts are disabled if using Krastorio2 and adds stacking to superior inserters
+    - Added mod settings to disable specific features if wanted.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.1
+Date: 27 September 2025
+  Features:
+    - Added support to the fork of quality mod for space exploration. changes the quality modules to be able to be crafted in the electromagnetic plant
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 26 September 2025
+  Features:
+    - Initial release

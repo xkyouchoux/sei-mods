@@ -1,0 +1,64 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.0.11
+Date: 29 March 2026
+  Changes:
+    - Removed 'power-washing' crafting category from cryogenic plant since it was removed from space exploration.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.10
+Date: 24 November 2025
+  Bugfixes:
+    - Fixed migrations when cryogenic plant is not required for progression
+---------------------------------------------------------------------------------------------------
+Version: 1.0.9
+Date: 24 November 2025
+  Features:
+    - Added mod setting so cryogenic plant is not required for cryonite processing
+---------------------------------------------------------------------------------------------------
+Version: 1.0.8
+Date: 4 November 2025
+  Locale:
+    - Added Russian locale - thanks Onseshigo
+---------------------------------------------------------------------------------------------------
+Version: 1.0.7
+Date: 24 October 2025
+  Changes:
+    - Bumped required version of sei-library to 1.0.11
+    - Removed chemistry-or-cryogenics and cryogenics-or-assembling recipe categories
+---------------------------------------------------------------------------------------------------
+Version: 1.0.6
+Date: 23 October 2025
+  Changes:
+    - Bumped required version of sei-library to 1.0.9
+---------------------------------------------------------------------------------------------------
+Version: 1.0.5
+Date: 17 October 2025
+  Balancing:
+    - Adjusted operating power consumption of the cryogenic plant. 1500kW -> 550kW for SE and 1500kW -> 250kW for K2SE
+---------------------------------------------------------------------------------------------------
+Version: 1.0.4
+Date: 17 October 2025
+  Changes:
+    - Adjusted how many module slots are shown per row.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.3
+Date: 15 October 2025
+  Changes:
+    - Added incompatibility with Standalone Cryogenic Plant mod.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.2
+Date: 14 October 2025
+  Changes:
+    - Removed dependency to Standalone Cryogenic Plant mod and made it optional. Cryogenic Plant is still included.
+    - Changed to use spage age graphics and sounds from the mod itself instead of packaging it with the mod
+  Bugfixes:
+    - Fixed circuit network connections on cryogenic plant
+---------------------------------------------------------------------------------------------------
+Version: 1.0.1
+Date: 11 October 2025
+  Bugfixes:
+    - Adding the mod into a game in progress should not unresearch everything after cryonite processing... I think
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 8 October 2025
+  Features:
+    - Initial release

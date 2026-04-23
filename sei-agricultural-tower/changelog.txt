@@ -1,0 +1,32 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.0.5
+Date: 24 October 2025
+  Changes:
+    - Bumped required version of sei-library to 1.0.11
+---------------------------------------------------------------------------------------------------
+Version: 1.0.4
+Date: 17 October 2025
+  Features:
+    - Tree seeds can be sent with delivery cannon now
+    - Tree seeds are assigned to the agriculture-seeds category now
+---------------------------------------------------------------------------------------------------
+Version: 1.0.3
+Date: 16 October 2025
+  Features:
+    - Adds mod setting to allow landfill as a tile for tree planting
+---------------------------------------------------------------------------------------------------
+Version: 1.0.2
+Date: 16 October 2025
+  Changes:
+    - Moved tree seeds to agriculture-processes subgroup
+    - Moved agricultural tower to extraction-machine subgroup
+---------------------------------------------------------------------------------------------------
+Version: 1.0.1
+Date: 16 October 2025
+  Bugfixes:
+    - Removed unused mod setting
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 16 October 2025
+  Features:
+    - Initial release

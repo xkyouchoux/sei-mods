@@ -1,0 +1,91 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.1.13
+Date: 25 December 2025
+  Changes:
+    - Carbon fiber robot frames can be made in electromagnetic plant if installed.
+    - Adjusted carbon fiber robot frame recipe order
+---------------------------------------------------------------------------------------------------
+Version: 0.1.12
+Date: 29 October 2025
+  Changes:
+    - Added support for more productivity technologies
+      Note: this mod does not add productivity techs, only adds to them if present.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.11
+Date: 28 October 2025
+  Changes:
+    - Bumped required version of sei-biochamber to 1.0.11
+    - Fixed crash when using se-sa-prod-tech
+---------------------------------------------------------------------------------------------------
+Version: 0.1.10
+Date: 27 October 2025
+  Features:
+    - Added optional support for se-sa-prod-tech productivity technologies
+  Balancing:
+    - Adjusted rocket fuel from jelly recipe
+  Changes:
+    - Adjusted rocket fuel from jelly recipe icon
+---------------------------------------------------------------------------------------------------
+Version: 0.1.9
+Date: 25 October 2025
+  Changes:
+    - Fixed flying robot frame recycling
+---------------------------------------------------------------------------------------------------
+Version: 0.1.8
+Date: 25 October 2025
+  Changes:
+    - Changed default value of enable spoilage to off
+    - Added description to enable spoilage to show what it changes
+    - Bumped required version of sei-biochamber to 0.1.9
+    - Bumped required version of sei-captive-biters to 0.1.11
+---------------------------------------------------------------------------------------------------
+Version: 0.1.7
+Date: 25 October 2025
+  Changes:
+    - Fixed required version of sei-captive-biters to 0.1.10
+---------------------------------------------------------------------------------------------------
+Version: 0.1.6
+Date: 24 October 2025
+  Changes:
+    - Moved bioflux processing from biological science 2 to biological science 1
+    - Bumped required version of sei-biochamber to 0.1.8
+    - Bumped required version of sei-captive-biters to 0.1.11
+    - Bumped required version of sei-agricultural-tower to 1.0.5
+    - Bumped required version of sei-heating-tower to 1.0.2
+---------------------------------------------------------------------------------------------------
+Version: 0.1.5
+Date: 21 October 2025
+  Balancing:
+    - Added jelly to vitalic acid recipe.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.4
+Date: 19 October 2025
+  Balancing:
+    - Adjusted genetic breeding yumako and jellynut seeds recipes.
+      Crafting time: 60 seconds -> 30 seconds.
+      Seed output: 10% 0 - 10 seeds -> 100% 0 - 2 seeds
+      Adjustes cost to be rougly 1 seed per extract
+    - Adjusted vitalic acid yumako and jellynut processing recipes.
+      Seed output: 20% for 1 seed -> 50% for 1 seed
+      Adjusted cost so this should be cheaper than just breeding the seeds.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.3
+Date: 18 October 2025
+  Bugfixes:
+    - Fixed vitalic acid fruits processing giving more seeds than intended.
+    - Fixed fruits processing tech not having processing vitamelange requirement.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.2
+Date: 18 October 2025
+  Bugfixes:
+    - Fixed certain recipes affecting recycling.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.1
+Date: 17 October 2025
+  Features:
+    - Added mod setting to enable spoilage features.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.0
+Date: 17 October 2025
+  Features:
+    - Initial release

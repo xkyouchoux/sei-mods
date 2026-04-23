@@ -1,0 +1,47 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.1.2
+Date: 05 December 2025
+  Balancing:
+    - Adjusted flash thermofluid cooling recipe to take 40 hot thermofluid and produce 20 hot thermofluid and 16 cold thermofluid.
+      Recipe time is adjusted to produce 4/s of cold thermofluid to match a single fusion reactor.
+      This removes the need for cryonite slush at the cost of a little more complex fluid handling.
+      Now only needs fusion cells and thermofluid shipments to run.
+    - [hd-plasma-duct] fixed plasma ducts could not be placed on space tiles
+---------------------------------------------------------------------------------------------------
+Version: 1.1.1
+Date: 03 December 2025
+  Balancing:
+    - Adjusted position of fusion reactor tech to require energy science 2 and material science 1
+    - Adjusted fusion reactor, fusion generator, and fusion fuel cell recipes
+---------------------------------------------------------------------------------------------------
+Version: 1.1.0
+Date: 03 December 2025
+  Balancing:
+    - Adjusted position of fusion reactor tech to require energy science 2
+    - Adjusted fusion reactor, fusion generator, and fusion fuel cell recipes
+    - Adjusted power output of fusion generators from 50MW back to 40MW
+---------------------------------------------------------------------------------------------------
+Version: 1.0.3
+Date: 26 October 2025
+  Balancing:
+    - Adjusted thermofluid usage of fusion reactors from 1/s back to 4/s (fluid cost being .999999/s and not 1/s really irked me)
+    - Adjusted power output of fusion generators from 40MW back to 50MW
+    - Adjusted position of fusion reactor tech to require material and energy science 3
+    - Adjusted fusion reactor, fusion generator, and fusion fuel cell recipes
+---------------------------------------------------------------------------------------------------
+Version: 1.0.2
+Date: 24 October 2025
+  Balancing:
+    - Adjusted Flash thermofluid cooling recipe from 40 -> 35 to 40 -> 32 for a total of 20% loss
+  Changes:
+    - Bumped required version of sei-cryogenic-plant to 1.0.7
+---------------------------------------------------------------------------------------------------
+Version: 1.0.1
+Date: 23 October 2025
+  Changes:
+    - Bumped required version of sei-cryogenic-plant to 1.0.6
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 22 October 2025
+  Features:
+    - Initial release

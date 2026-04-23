@@ -1,0 +1,16 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.0.2
+Date: 23 October 2025
+  Changes:
+    - Bumped required version of sei-library to 1.0.9
+---------------------------------------------------------------------------------------------------
+Version: 1.0.1
+Date: 18 October 2025
+  Changes:
+    - Removed sei-gleba-fruits support so that its a material only tech
+    - Added rocket turret tech requirement to stronger explosives 7
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 18 October 2025
+  Features:
+    - Initial release

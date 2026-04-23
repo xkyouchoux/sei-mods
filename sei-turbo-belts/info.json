@@ -1,0 +1,15 @@
+{
+  "name": "sei-turbo-belts",
+  "version": "1.0.2",
+  "title": "Space Exploration Integration: Turbo Belts",
+  "author": "xkyouchoux",
+  "description": "Adds turbo belts for space exploration.",
+  "dependencies": [
+    "base >= 2.0.0",
+    "space-exploration >= 0.7",
+    "TurboBelt",
+    "sei-library",
+    "! space-age"],
+  "freezing_required": true,
+  "factorio_version": "2.0"
+}

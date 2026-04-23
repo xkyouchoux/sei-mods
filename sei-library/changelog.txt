@@ -1,0 +1,98 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.0.17
+Date: 24 February 2026
+  Changes:
+    - Removed incompatibility with space age mod.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.16
+Date: 18 February 2026
+  Changes:
+    - Removed code that removes spoilable items from delivery cannons.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.15
+Date: 4 November 2025
+  Locale:
+    - Added Russian locale - thanks Onseshigo
+---------------------------------------------------------------------------------------------------
+Version: 1.0.14
+Date: 29 October 2025
+  Changes:
+    - Added support for more productivity technologies
+      Note: this mod does not add productivity techs, only adds to them if present.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.13
+Date: 28 October 2025
+  Features:
+    - Added new function
+---------------------------------------------------------------------------------------------------
+Version: 1.0.12
+Date: 25 October 2025
+  Changes:
+    - Moved fish spoilage from this mod to sei-biochamber
+---------------------------------------------------------------------------------------------------
+Version: 1.0.11
+Date: 24 October 2025
+  Changes:
+    - Removed all crafting category changes
+    - Removed optional dependency to BrimStuff-Updated.
+  Bugfixes:
+    - Fixed agricultural tower circuit connectors
+    - Fixed rocket turret circuit connectors
+---------------------------------------------------------------------------------------------------
+Version: 1.0.10
+Date: 24 October 2025
+  Changes:
+    - Added optional dependency to BrimStuff-Updated to prevent a crash for now.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.9
+Date: 23 October 2025
+  Bugfixes:
+    - Fixed spoilage replacing contaminated scrap in decontamination recipes.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.8
+Date: 18 October 2025
+  Changes:
+    - Changed spoilage reprocessing so it can only be made in biochemical facility.
+  Bugfixes:
+    - Fixed spoilage reprocessing recipe icon.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.7
+Date: 18 October 2025
+  Bugfixes:
+    - Fixed certain recipes affecting recycling.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.6
+Date: 17 October 2025
+  Features:
+    - Added base spoilage support for my other mods.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.5
+Date: 16 October 2025
+  Features:
+    - Added agricultural-processes and agricultural-products item-subgroups
+    - Added multiple sa crafting categories and adds them to appropiate machines
+---------------------------------------------------------------------------------------------------
+Version: 1.0.4
+Date: 15 October 2025
+  Bugfixes:
+    - Fixed sa graphics paths having extra '/'
+---------------------------------------------------------------------------------------------------
+Version: 1.0.3
+Date: 14 October 2025
+  Changes:
+    - Removed dependency to Standalone Space Age Library
+---------------------------------------------------------------------------------------------------
+Version: 1.0.2
+Date: 10 October 2025
+  Bugfixes:
+    - Fixed thermodynamics facility could not cast steel ingot
+---------------------------------------------------------------------------------------------------
+Version: 1.0.1
+Date: 9 October 2025
+  Bugfixes:
+    - Fixed not being able to load without empty-space tile
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 8 October 2025
+  Features:
+    - Initial release

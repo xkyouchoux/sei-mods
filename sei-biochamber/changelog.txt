@@ -1,0 +1,88 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.1.13
+Date: 4 November 2025
+  Locale:
+    - Added Russian locale - thanks Onseshigo
+---------------------------------------------------------------------------------------------------
+Version: 0.1.12
+Date: 29 October 2025
+  Changes:
+    - Added support for more productivity technologies
+      Note: this mod does not add productivity techs, only adds to them if present.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.11
+Date: 28 October 2025
+  Changes:
+    - Bumped required version of sei-library to 1.0.13
+    - Fixed crash when using se-sa-prod-tech
+---------------------------------------------------------------------------------------------------
+Version: 0.1.10
+Date: 27 October 2025
+  Features:
+    - Added optional support for se-sa-prod-tech productivity technologies
+---------------------------------------------------------------------------------------------------
+Version: 0.1.9
+Date: 25 October 2025
+  Changes:
+    - Moved fish spoilage from sei-library to this mod when spoilage is enabled
+    - Added description to enable spoilage to show what it changes
+    - Bumped required version of sei-library to 1.0.12
+    - Bumped optional version of sei-captive-biters to 1.0.11
+---------------------------------------------------------------------------------------------------
+Version: 0.1.8
+Date: 24 October 2025
+  Changes:
+    - Bumped required version of sei-library to 1.0.11
+    - Bumped required version of sei-heating-tower to 1.0.2
+    - Removed organic-or-assembling, organic-or-hand-crafting, and organic-or-chemistry recipe categories
+---------------------------------------------------------------------------------------------------
+Version: 0.1.7
+Date: 18 October 2025
+  Bugfixes:
+    - Fixed certain recipes affecting recycling.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.6
+Date: 17 October 2025
+  Features:
+    - Added mod setting to enable spoilage features.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.5
+Date: 16 October 2025
+  Changes:
+    - Moved spoilage related code to sei-spoilage
+    - Requires sei-library version 1.0.5 or higher now.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.4
+Date: 14 October 2025
+  Changes:
+    - Changed to use spage age graphics and sounds from the mod itself instead of packaging it with the mod
+  Bugfixes:
+    - Fixed circuit network connections on biochamber
+---------------------------------------------------------------------------------------------------
+Version: 0.1.3
+Date: 12 October 2025
+  Changes:
+    - Removed space only recipes from biochamber with mod option to re-add them
+---------------------------------------------------------------------------------------------------
+Version: 0.1.2
+Date: 11 October 2025
+  Features:
+    - Added support for Space Exploration Integration: Spoilage when installed:
+        Nutrients spoil after 5 minutes
+        Added nutrients from spoilage kickstart recipe
+        Replaces vitamelange nugget with spoilage in biosulfur recipe
+---------------------------------------------------------------------------------------------------
+Version: 0.1.1
+Date: 11 October 2025
+  Features:
+    - Added support for Space Exploration Integration: Captive Biters and Biter Eggs when installed:
+        Added nutrients form bioflux recipe
+        Added nutrients from biter egg recipe
+        Replaces biosludge with bioflux in biosulfur and bioplastic recipes
+    - Added fish breeding recipe
+    - Added biolubricant recipe
+---------------------------------------------------------------------------------------------------
+Version: 0.1.0
+Date: 9 October 2025
+  Features:
+    - Initial release

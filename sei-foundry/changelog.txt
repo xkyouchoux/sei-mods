@@ -1,0 +1,99 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.0.16
+Date: 4 November 2025
+  Locale:
+    - Added Russian locale - thanks Onseshigo
+---------------------------------------------------------------------------------------------------
+Version: 1.0.15
+Date: 1 November 2025
+  Changes:
+    - Removed incompatibility with bzfoundry2, actually. Name changes to 'Casting Foundry'
+      This works by changing internal foundry names to have 'sei-' prefix only if bzfoundry2 is installed.
+      You can add this mod to a save with bzfoundry2 fine, but you cannot add bzfoundry2 to a save with
+      this mod installed, without issues. You will loose all placed foundrys and the tech will have to be
+      re-researched.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.14
+Date: 29 October 2025
+  Changes:
+    - Added support for more productivity technologies
+      Note: this mod does not add productivity techs, only adds to them if present.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.13
+Date: 28 October 2025
+  Changes:
+    - Bumped required version of sei-library to 1.0.13
+    - Fixed crash when using se-sa-prod-tech
+---------------------------------------------------------------------------------------------------
+Version: 1.0.12
+Date: 27 October 2025
+  Changes:
+    - Added incompatibility with bzfoundry2 again
+---------------------------------------------------------------------------------------------------
+Version: 1.0.11
+Date: 27 October 2025
+  Features:
+    - Added optional support for se-sa-prod-tech productivity technologies
+---------------------------------------------------------------------------------------------------
+Version: 1.0.10
+Date: 26 October 2025
+  Changes:
+    - Removed incompatibility with bzfoundry2/bzfoundry, can use with those mods now
+---------------------------------------------------------------------------------------------------
+Version: 1.0.9
+Date: 24 October 2025
+  Changes:
+    - Bumped required version of sei-library to 1.0.11
+    - Removed pressing, crafting-with-fluid-or-mettalurgy, and metallurgy-or-assembling recipe categories
+---------------------------------------------------------------------------------------------------
+Version: 1.0.8
+Date: 24 October 2025
+  Changes:
+    - Added incompatibility with bzfoundry2
+---------------------------------------------------------------------------------------------------
+Version: 1.0.7
+Date: 23 October 2025
+  Changes:
+    - Bumped required version of sei-library to 1.0.9
+---------------------------------------------------------------------------------------------------
+Version: 1.0.6
+Date: 18 October 2025
+  Bugfixes:
+    - Fixed certain recipes affecting recycling.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.5
+Date: 17 October 2025
+  Changes:
+    - Adjusted operationg power consumption of the foundry from 2500kW -> 1350kW.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.4
+Date: 15 October 2025
+  Changes:
+    - Added incompatibility with Standalone Foundry mod.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.3
+Date: 14 October 2025
+  Changes:
+    - Removed dependency to Standalone Foundry mod and made it optional. Foundry is still included.
+    - Changed to use spage age graphics and sounds from the mod itself instead of packaging it with the mod
+  Balancing:
+    - Casting intermediate recipe craft times are doubled, making them 2x instead of 4x
+  Bugfixes:
+    - Fixed circuit network connections on foundry
+    - Fixed casting pipe, casting pipe to ground, and casting concrete could take productivity modules
+---------------------------------------------------------------------------------------------------
+Version: 1.0.2
+Date: 12 October 2025
+  Changes:
+    - Removed lattice pressure vessel from foundry.
+      Added mod setting to renable them.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.1
+Date: 9 October 2025
+  Changes:
+    - Allows iridium ingot and lattice pressure vessel to be made in foundry
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 8 October 2025
+  Features:
+    - Initial release

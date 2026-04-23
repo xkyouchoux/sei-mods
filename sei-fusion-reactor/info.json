@@ -1,0 +1,14 @@
+{
+  "name": "sei-fusion-reactor",
+  "version": "1.1.2",
+  "title": "Space Exploration Integration: Fusion Reactor",
+  "author": "xkyouchoux",
+  "description": "Adds fusion reactor into space exploration.",
+  "dependencies": [
+    "base >= 2.0.0",
+    "space-exploration >= 0.7",
+    "sei-cryogenic-plant >= 1.0.7",
+    "! space-age"],
+  "freezing_required": true,
+  "factorio_version": "2.0"
+}

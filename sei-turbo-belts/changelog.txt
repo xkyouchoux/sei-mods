@@ -1,0 +1,15 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.0.2
+Date: 15 October 2025
+  Bugfixes:
+    - Fixed error when loading aai-loaders in graphics-only mode
+---------------------------------------------------------------------------------------------------
+Version: 1.0.1
+Date: 14 October 2025
+  Changes:
+    - Added dependency to Space Exploration Integration: Library
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 8 October 2025
+  Features:
+    - Initial release

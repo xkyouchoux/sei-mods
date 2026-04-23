@@ -1,0 +1,16 @@
+{
+  "name": "sei-heating-tower",
+  "version": "1.0.5",
+  "title": "Space Exploration Integration: Heating Tower",
+  "author": "xkyouchoux",
+  "description": "Adds heating tower into space exploration.",
+  "dependencies": [
+    "base >= 2.0.0",
+    "space-exploration >= 0.7",
+    "(?) space-exploration-postprocess",
+    "sei-library >= 1.0.9",
+    "! HeatingTower",
+    "! space-age"],
+  "freezing_required": true,
+  "factorio_version": "2.0"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "sei-agricultural-tower",
+  "version": "1.0.5",
+  "title": "Space Exploration Integration: Agricultural Tower",
+  "author": "xkyouchoux",
+  "description": "Adds tree seeds and agricultural tower into space exploration.",
+  "dependencies": [
+    "base >= 2.0.0",
+    "space-exploration >= 0.7",
+    "sei-library >= 1.0.11",
+    "! space-age"],
+  "space_travel_required": true,
+  "factorio_version": "2.0"
+}

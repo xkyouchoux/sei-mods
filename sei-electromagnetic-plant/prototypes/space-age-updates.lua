@@ -1,0 +1,85 @@
+if not SEI_SPACE_AGE then return end
+
+local data_util = require("__sei-library__.data_util")
+
+local electronics_recipes = {
+    "se-addon-power-pole",
+    "se-pylon",
+    "se-pylon-substation",
+    "se-pylon-construction",
+    "se-pylon-construction-radar",
+    "se-compact-beacon",
+    "se-compact-beacon-2",
+    "se-wide-beacon",
+    "se-wide-beacon-2",
+    "speed-module",
+    "speed-module-2",
+    "speed-module-3",
+    "speed-module-4",
+    "speed-module-5",
+    "speed-module-6",
+    "speed-module-7",
+    "efficiency-module",
+    "efficiency-module-2",
+    "efficiency-module-3",
+    "efficiency-module-4",
+    "efficiency-module-5",
+    "efficiency-module-6",
+    "efficiency-module-7",
+    "productivity-module",
+    "productivity-module-2",
+    "productivity-module-3",
+    "productivity-module-4",
+    "productivity-module-5",
+    "productivity-module-6",
+    "productivity-module-7",
+    "quality-module",
+    "quality-module-2",
+    "quality-module-3",
+    "quality-module-4",
+    "quality-module-5",
+    "quality-module-6",
+    "quality-module-7",
+    "se-processing-unit-holmium",
+    "electric-motor",
+    "electronic-circuit-wood",
+    "rocket-control-unit",
+}
+
+local electronics_with_fluid_recipes = {
+    "speed-module-8",
+    "speed-module-9",
+    "efficiency-module-8",
+    "efficiency-module-9",
+    "productivity-module-8",
+    "productivity-module-9",
+    "quality-module-8",
+    "quality-module-9",
+    "electric-engine-unit",
+}
+
+if settings.startup["sei-electromagnetic-plant-allow-space-recipes"].value then
+    for _,result in pairs(data.raw["recipe"]["se-superconductive-cable"].results) do
+        if result.name == "se-space-coolant-warm" then result.ignored_by_productivity = result.amount end
+    end
+    
+    data_util.add_additional_category_to_recipes("electromagnetics", {
+        "se-space-solar-panel",
+        "se-space-solar-panel-2",
+        "se-space-solar-panel-3",
+        "se-space-accumulator",
+        "se-space-accumulator-2",
+        "se-superconductive-cable",
+        "se-dynamic-emitter",
+        "se-quantum-processor",
+    })
+end
+
+data_util.add_categories_to_machines({
+    "crafting-or-electromagnetics",
+}, {
+    "electromagnetic-plant"
+})
+
+data_util.set_category_for_recipes("electronics", electronics_recipes)
+data_util.set_category_for_recipes("electronics-with-fluid", electronics_with_fluid_recipes)

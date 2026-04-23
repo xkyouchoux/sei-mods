@@ -1,0 +1,70 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.0.12
+Date: 24 February 2026
+  Locale:
+    - Fixed locale.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.11
+Date: 24 February 2026
+  Changes:
+    - Removed incompatibility with space age mod.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.10
+Date: 28 December 2025
+  Changes:
+    - [k2] Electronic compents with lithium can be made in electromagnetic plant now
+---------------------------------------------------------------------------------------------------
+Version: 1.0.9
+Date: 25 December 2025
+  Features:
+    - Added support for se-space-trains
+---------------------------------------------------------------------------------------------------
+Version: 1.0.8
+Date: 4 November 2025
+  Locale:
+    - Added Russian locale - thanks Onseshigo
+---------------------------------------------------------------------------------------------------
+Version: 1.0.7
+Date: 31 October 2025
+  Bugfixes:
+    - Fixed superconductive cable recipe giving more thermofluid than it takes
+---------------------------------------------------------------------------------------------------
+Version: 1.0.6
+Date: 24 October 2025
+  Changes:
+    - Bumped required version of sei-library to 1.0.11
+    - Removed electronics, electronics-with-fluid, electronics-or-assembling, and chemistry-or-electromagnetics recipe categories
+---------------------------------------------------------------------------------------------------
+Version: 1.0.5
+Date: 23 October 2025
+  Changes:
+    - Bumped required version of sei-library to 1.0.9
+---------------------------------------------------------------------------------------------------
+Version: 1.0.4
+Date: 17 October 2025
+  Changes:
+    - Adjusted operation power consumption of the electromagnetic plant from 2000kW -> 1250kW.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.3
+Date: 15 October 2025
+  Changes:
+    - Added incompatibility with Standalone Electromagnetic Plant mod.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.2
+Date: 14 October 2025
+  Changes:
+    - Removed dependency to Standalone Electromagnetic Plant mod and made it optional. Electromagnetic Plant is still included.
+    - Changed to use spage age graphics and sounds from the mod itself instead of packaging it with the mod
+  Bugfixes:
+    - Fixed circuit network connections on electromagnetic plant
+---------------------------------------------------------------------------------------------------
+Version: 1.0.1
+Date: 12 October 2025
+  Changes:
+    - Removes space solar panels, space accumulators, superconductive cable, dynamic emitter, and quantum processors in electromagnetic plant
+      Added mod setting to re-enable them.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 8 October 2025
+  Features:
+    - Initial release

@@ -1,0 +1,87 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.1.14
+Date: 27 December 2025
+  Features:
+    - The capture rocket can now be used from other rocket launchers and rocket turrets.
+      Currently only supports vanilla rocket launcher, spidertron, krastorio2 heavy rocket launcher and rocket turret, and the rocket turret
+---------------------------------------------------------------------------------------------------
+Version: 0.1.13
+Date: 29 October 2025
+  Changes:
+    - Bumped required version of sei-library to 1.0.13
+    - Added support for more productivity technologies
+      Note: this mod does not add productivity techs, only adds to them if present.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.12
+Date: 25 October 2025
+  Bugfixes:
+    - Fixed tier 1 biter and spitter capsules didnt have biter egg ingredient
+---------------------------------------------------------------------------------------------------
+Version: 0.1.11
+Date: 25 October 2025
+  Changes:
+    - Changed default value of enable biter egg spoilage to off
+    - Changed internal type of bioflux from 'item' to 'capsule'
+    - Added description to enable spoilage to show what it changes
+    - Bumped required version of sei-library to 1.0.12
+---------------------------------------------------------------------------------------------------
+Version: 0.1.10
+Date: 24 October 2025
+  Changes:
+    - Bumped required version of sei-library to 1.0.11
+    - Bumped required version of sei-heating-tower to 1.0.2
+---------------------------------------------------------------------------------------------------
+Version: 0.1.9
+Date: 18 October 2025
+  Bugfixes:
+    - Fixed certain recipes affecting recycling.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.8
+Date: 18 October 2025
+  Changes:
+    - Biter eggs and captive biter spawners spoilage can be changed seperately from spoilage items
+      Can be disabled in mod settings.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.7
+Date: 17 October 2025
+  Features:
+    - Added mod setting to enable spoilage features.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.6
+Date: 16 October 2025
+  Balancing:
+    - Adjusted nutrient gel from biter egg recipe
+---------------------------------------------------------------------------------------------------
+Version: 0.1.5
+Date: 16 October 2025
+  Changes:
+    - Moved spoilage related code to sei-spoilage.
+    - Requires sei-library version 1.0.5 or higher now.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.4
+Date: 14 October 2025
+  Changes:
+    - Changed to use spage age graphics and sounds from the mod itself instead of packaging it with the mod
+---------------------------------------------------------------------------------------------------
+Version: 0.1.3
+Date: 11 October 2025
+  Bugfixes:
+    - Moved spoilage integration to data stage to fix issue with delivery cannon
+---------------------------------------------------------------------------------------------------
+Version: 0.1.2
+Date: 11 October 2025
+  Features:
+    - Added support for Space Exploration Integration: Spoilage when installed:
+        Bioflux spoils after 2 hours
+        Biter eggs with spoil into a big biter after 1 hour
+        Captive biter spawner will spoil into beheamoth biters after 1 hour
+---------------------------------------------------------------------------------------------------
+Version: 0.1.1
+Date: 11 October 2025
+  Bugfixes:
+    - Adding the mod into a game in progress should not unresearch everything after biological science 1... I think
+---------------------------------------------------------------------------------------------------
+Version: 0.1.0
+Date: 11 October 2025
+  Features:
+    - Initial release

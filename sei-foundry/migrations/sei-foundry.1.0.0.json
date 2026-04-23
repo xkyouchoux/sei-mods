@@ -1,0 +1,11 @@
+{
+    "fluid":
+    [
+        ["molten-iron", "se-molten-iron"],
+        ["molten-copper", "se-molten-copper"]
+    ],
+    "recipe":
+    [
+        ["concrete-from-molten-iron", "casting-concrete"]
+    ]
+}
