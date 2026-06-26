@@ -49,7 +49,7 @@ data:extend({
         type = "bool-setting",
         name = "sei-loaders-wait-for-full-stack",
         setting_type = "startup",
-        default_value = true,
+        default_value = false,
         order = "b-c",
         hidden = true,
     },
@@ -59,6 +59,14 @@ data:extend({
         setting_type = "startup",
         default_value = true,
         order = "c-a",
+        hidden = true,
+    },
+    {
+        type = "bool-setting",
+        name = "sei-add-stacking-to-kr-quarry-drill",
+        setting_type = "startup",
+        default_value = true,
+        order = "c-b",
         hidden = true,
     },
 })
