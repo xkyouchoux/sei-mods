@@ -1,6 +1,6 @@
 if not mods["Krastorio2"] then return end
 
-local data_util = require("__sei-library__.data_util")
+local data_util = require("__space-exploration__.data_util")
 
 if settings.startup["sei-add-stacking-to-kr-loaders"].value and settings.startup["kr-loaders"].value then
     for k,v in pairs(data.raw["loader-1x1"]) do

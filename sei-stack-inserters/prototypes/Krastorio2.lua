@@ -1,6 +1,6 @@
 if not mods["Krastorio2"] then return end
 
-local data_util = require("__sei-library__.data_util")
+local data_util = require("__space-exploration__.data_util")
 
 data.raw["mining-drill"]["kr-electric-mining-drill-mk2"].drops_full_belt_stacks = settings.startup["sei-add-stacking-to-kr-electric-mining-drill-mk2"].value
 data.raw["mining-drill"]["kr-electric-mining-drill-mk3"].drops_full_belt_stacks = settings.startup["sei-add-stacking-to-kr-electric-mining-drill-mk3"].value
